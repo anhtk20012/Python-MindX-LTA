@@ -1,0 +1,7 @@
+name = input("Tên của bạn là: ")
+print("Xin chào", name)
+# age = int(input("Tuổi của bạn là: "))
+age = input("Tuổi của bạn là: ")
+age = int(age)
+print(age) 
+print("9"*0)

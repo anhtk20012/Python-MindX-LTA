@@ -1,0 +1,9 @@
+<RCC>
+  <qresource prefix="Logo">
+    <file>Pic/lock_pass.png</file>
+    <file>Pic/logo_app.png</file>
+    <file>Pic/open_pass.png</file>
+    <file>Pic/password.png</file>
+    <file>Pic/user.png</file>
+  </qresource>
+</RCC>

@@ -1,0 +1,7 @@
+a = input("Nhập số a: ")
+b = input("Nhập số b: ")
+print(type(a), type(b))
+a = float(a)
+b = float(b)
+print(type(a), type(b))
+print(a + b)
