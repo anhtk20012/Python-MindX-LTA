@@ -40,7 +40,7 @@ class SignIn(QMainWindow):
             self.close()
 
     def verify_login(self):
-        QMessageBox.information(self, 'Login Success', 'You have successfully logged in!', QMessageBox.StandardButton.Yes)
+        QMessageBox.information(self, 'Login Success', 'You have successfully logged in!', QMessageBox.StandardButton.Ok)
         
     def show_wellcome(self):
         self.signal.wellcome_show.emit(self.pos())

@@ -40,7 +40,7 @@ class SignUp(QMainWindow):
             self.close()
 
     def verify_register(self):
-        QMessageBox.information(self, 'Registration Success', 'You have successfully registered!', QMessageBox.StandardButton.Yes)
+        QMessageBox.information(self, 'Registration Success', 'You have successfully registered!', QMessageBox.StandardButton.Ok)
         
     def show_wellcome(self):
         self.signal.wellcome_show.emit(self.pos())
