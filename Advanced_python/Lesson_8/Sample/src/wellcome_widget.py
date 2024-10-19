@@ -36,7 +36,11 @@ class Wellcome(QMainWindow):
     def mouseReleaseEvent(self, event):
         if event.button() == QtCore.Qt.MouseButton.LeftButton:
             self.old_pos = None
-                  
+    
+    def keyPressEvent(self, event):
+        if event.key() == QtCore.Qt.Key.Key_Escape:
+            self.close_application()
+                          
     def close_application(self):
         reply = QMessageBox.question(
                     self, 'Exit', 'Are you sure you want to exit?', 
